@@ -29,7 +29,9 @@ const playSound = e => {
     window.addEventListener('touchstart', playSound);
     window.addEventListener('click', playSound);
 
-    window.onload = function() {
-      document.getElementById("theme").play();
-  }
+  
+    var audio1 = document.getElementById("theme");
+    function playAudio() {
+      audio1.play();
+    }
 
