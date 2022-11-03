@@ -28,3 +28,8 @@ const playSound = e => {
     window.addEventListener('keydown', playSound);
     window.addEventListener('touchstart', playSound);
     window.addEventListener('click', playSound);
+
+    window.onload = function() {
+      document.getElementById("theme").play();
+  }
+
