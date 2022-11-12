@@ -1,44 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Soundboard</title>
-  <!-- CSS -->
-  <link rel="stylesheet" href="./style.css">
-
-</head>
-<!-- theme song -->
-<body onmouseenter="playAudio()">
-
-  <!-- Keys -->
-<div class="keys">
-
-    <!-- <div data-key="67" class="key">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Soundboard</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <!-- theme song -->
+  <body onmouseenter="playAudio()">
+    <!-- Keys -->
+    <div class="keys">
+      <!-- <div data-key="67" class="key">
       <kbd>C</kbd>
       <span class="sound">Test Audio</span>
     </div> -->
 
-    <div data-key="75" class="key">
-      <kbd>K</kbd>
-      <span class="sound">Kermit</span>
+      <div data-key="75" class="key">
+        <kbd>K</kbd>
+        <span class="sound">Kermit</span>
+      </div>
+
+      <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">Fozzie</span>
+      </div>
+
+      <div data-key="66" class="key">
+        <kbd>B</kbd>
+        <span class="sound">Beaker</span>
+      </div>
     </div>
 
-    <div data-key="70" class="key">
-      <kbd>F</kbd>
-      <span class="sound">Fozzie</span>
-    </div>
+    <!-- theme song -->
 
-</div>
+    <audio loop id="theme" src="sounds/themesong.mp3"></audio>
 
-<!-- theme song -->
+    <!-- Sounds -->
+    <audio data-key="75" src="sounds/Kermit.mp3"></audio>
+    <audio data-key="70" src="sounds/wakawaka.mp3"></audio>
+    <audio data-key="66" src="sounds/mimi.mp3"></audio>
 
-<audio loop id="theme" src="sounds/themesong.mp3"></audio>
-
-  <!-- Sounds -->
-  <audio data-key="75" src="sounds/Kermit.mp3"></audio>
-  <audio data-key="70" src="sounds/wakawaka.mp3"></audio>
-<!-- JavaScript -->
-  <script  src="./script.js"></script>
-
-</body>
+    <!-- JavaScript -->
+    <script src="./script.js"></script>
+  </body>
 </html>
