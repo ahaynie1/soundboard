@@ -23,3 +23,5 @@ Iconic sounds from The Muppet Show, deployed via Netlify.
 - Fonts (https://www.fontshare.com/?q=Clash%20Display)
 
 - Favicon generator
+
+- Kermit Icon ("https://icons8.com/icon/rn0oscjrJY2d/kermit-the-frog")
