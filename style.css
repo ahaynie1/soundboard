@@ -15,7 +15,11 @@ body {
   justify-content: center;
   -webkit-box-align: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: fit-content;
+  max-height: fit-content;
+  width: 100%;
+  background-image: url(images/muppetbg.jpeg);
+  background-repeat: no-repeat;
 }
 
 
