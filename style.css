@@ -75,7 +75,8 @@ img {
 /* Transition Animation. Last frame of animation. */
 .playing {
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);
-  background: rgb(88, 3, 3);
+  transform: scale(1.2);
+  rotate: 30deg;
+  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);
+  background: rgb(88, 3, 3); */
 }
