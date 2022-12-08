@@ -20,6 +20,6 @@ Iconic sounds from The Muppet Show, deployed via Netlify.
 - Beaker image (https://i.pinimg.com/564x/14/5b/f9/145bf9d62b8bb5038345ce560a097f2c--funny-stuff-puppet.jpg)
 - Audio converter (https://yt2mp3.info/?l=en)
 
-- Fonts
+- Fonts (https://www.fontshare.com/?q=Clash%20Display)
 
 - Favicon generator
